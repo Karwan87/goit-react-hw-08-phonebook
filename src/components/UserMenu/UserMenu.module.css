@@ -1,0 +1,36 @@
+.Container {
+  margin-top: 1px;
+  background-image: linear-gradient(to bottom, #f8f8f8, #ededed);
+  background-image: linear-gradient(to top, #ededed, #f8f8f8);
+}
+.Text {
+  text-align: center;
+  font-size: 2em;
+}
+
+@media (max-width: 768px) {
+  .Text {
+    text-align: left;
+  }
+}
+
+.LogoutButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #4299e1;
+  color: #4299e1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #518abe;
+  }
+
+  & > svg {
+    margin-left: 5px;
+  }
+}
