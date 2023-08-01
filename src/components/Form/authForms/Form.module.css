@@ -1,0 +1,66 @@
+.BoxContainer {
+  max-width: 500px;
+  margin: 50px auto;
+  background: linear-gradient(
+    to top right,
+    rgb(236, 236, 236),
+    lightgrey,
+    rgb(223, 204, 204)
+  );
+
+  height: 450px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 6px;
+  border-radius: 8px;
+}
+.RegisterContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px;
+}
+.Label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.Description {
+  font-size: 12;
+}
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+.ButtonSend {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  background: orange;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.ButtonLoginSend {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(to right, teal, green);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.ButtonLoginContainer {
+  display: flex;
+  justify-content: center;
+}
+.ButtonContainer :hover {
+  background-color: red;
+}
+.ButtonLoginContainer :hover {
+  background: linear-gradient(to right, green, black);
+}
+.ButtonDescr {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  justify-content: center;
+  text-align: center;
+}
