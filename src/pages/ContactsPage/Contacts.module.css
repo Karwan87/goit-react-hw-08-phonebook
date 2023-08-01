@@ -1,0 +1,7 @@
+.Container {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1px;
+  background-image: linear-gradient(to bottom, #f8f8f8, #e8e8e8);
+  background-image: linear-gradient(to top, #e8e8e8, #f8f8f8);
+}
